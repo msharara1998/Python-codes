@@ -4,23 +4,14 @@ def pyramid(n):
         print(("* "*i).center(2*n-1))
 
 
-pyramid(23)
-
-
 def inverted_pyramid(n):
     for i in range(1, n):
         print(("* "*(n-i)).center(2*n-1))
 
 
-inverted_pyramid(23)
-
-
 def right_triangle(n):
     for i in range(1, n):
         print(("*" * i).ljust(2 * n - 1))
-
-
-pyramid(6)
 
 
 def hollow_pyramid(n):
@@ -29,5 +20,3 @@ def hollow_pyramid(n):
         print(("*"+" "*(2*i+1)+"*").center(2*n+3))
     print("* "*(n+2))
 
-
-pyramid(16)
